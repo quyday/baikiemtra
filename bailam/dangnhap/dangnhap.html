@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
+    <link rel="stylesheet" href="danhnhap.css">
+    <link rel="icon" href="../tainguyen/vnexpes.png">
+    <title>Đăng nhập</title>
+  </head>
+  <body >
+    <div id="khung" class=" p-6 rounded-lg shadow-lg w-full max-w-md">
+      <div class="flex justify-between border-b pb-2 mb-4">
+        <h2  id="co">Đăng nhập</h2>
+        <h2 id="co1">Tạo tài khoản</h2>
+      </div>
+      <div class="flex">
+        <div class="o1">
+          <h3 class="text-sm font-medium mb-2">Đăng nhập với email</h3>
+          <div class="mb-4">
+            <input id="Email" type="password" placeholder="Email" class="bo"/>
+            <p class="hay">Hãy nhập email</p>
+          </div>
+          <div class="mb-4 relative">
+            <label for="Mat khau"></label>
+            <input id="Mat khau" type="password" placeholder="Mật khẩu" class="bo"/>
+            <button id="aaa">
+              <i class="fas fa-eye"></i>
+            </button>
+            <script>
+              var Mat_khau = document.getElementById("Mat khau");
+              var aaa = document.getElementById("aaa");
+              aaa.addEventListener("click", function () {
+                Mat_khau.setAttribute('type', Mat_khau.getAttribute('type') === 'password' ? 'text' : 'password');
+                  setTimeout(function () {
+                      console.log('Sau 5s');
+                      
+                      Mat_khau.setAttribute('type', 'password');
+                  }, 1000)
+              });
+          </script>
+          </div>
+          <button id="dangnhap">
+            Đăng nhập
+          </button>
+          <a href="https://www.facebook.com/profile.php?id=100073106621414&locale=vi_VN"
+            ><p id="laylai" class="text-center text-sm text-gray-500 mt-4" >
+              Lấy lại mật khẩu
+            </p></a
+          >
+        </div>
+        <div id="to" >
+          <h3 >Đăng nhập với</h3>
+          <button
+            class="fb">
+            <a href="https://www.facebook.com/profile.php?id=100073106621414&locale=vi_VN"
+              ><i class="fab fa-facebook-f mr-2"></i> Facebook</a
+            >
+          </button>
+          <button
+            class="gg"
+          >
+            <a href="https://www.facebook.com/profile.php?id=100073106621414&locale=vi_VN"
+              ><i class="fab fa-google mr-2"></i> Google</a
+            >
+          </button>
+          <button
+            class="w-full bg-black text-white py-2 rounded flex items-center justify-center"
+          >
+            <a href="https://www.facebook.com/profile.php?id=100073106621414&locale=vi_VN"
+              ><i class="fab fa-apple mr-2"></i> Apple</a
+            >
+          </button>
+        </div>
+      </div>
+      <p class="cuoi">
+        Bạn đăng nhập là đồng ý với
+        <a href="" >điều khoản sử dụng</a> và
+        <a href="" >chính sách bảo mật</a> của VnExpress &
+        được bảo vệ bởi RECAPTCHA
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+#co{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font: bold;
+    color: red;
+    text-align: left;
+}
+#co1{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font: bold;
+    color: gray;
+}
+#dangnhap:hover{
+background-color: rgb(10, 82, 237);
+}
+#laylai:hover{
+color: brown;
+}
+body{
+    width: 1606px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bo{
+    width: 180px;
+    padding: 8;
+    border: 1px solid rgb(234, 226, 226);
+    border-radius: 4px;
+}
+#aaa{
+    position: absolute;
+    right: 7;
+    top: 13;
+    color: gray;
+}
+#to{
+    font-size: small;
+    font-weight:500;
+    width: 50%;
+    padding-left: 20px;
+}
+#to h3{
+    margin-bottom: 9px;
+}
+.cuoi{
+    margin-top: 10px;
+    font-size: small;
+    color: rgb(183, 179, 179);
+    text-align: center;
+}
+.fb{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 8px 0px;
+    margin-bottom: 9px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gg{
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 8px 0px;
+    margin-bottom: 9px;
+    border-radius: 4px;
+    display: flex;
+    border: 1px solid rgb(200, 200, 200);
+    align-items: center;
+    justify-content: center;
+}
+.o1{
+    width: 50%;
+    padding-right: 22;
+    border-right: 1px solid rgb(200, 200, 200);
+}
+#khung{
+    background-color: rgb(246, 225, 232);
+}
+.cuoi a{
+    color: blue;
+}
+.hay{
+    color: red;
+    font-size: small;
+    margin-top: 4;
+}
+#dangnhap{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(162, 159, 159);
+    color: white;
+    padding: 2px 0px;
+    border: 1px solid rgb(147, 143, 143);
+    border-radius: 3px;
+
+}
